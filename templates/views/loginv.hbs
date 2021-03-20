@@ -1,0 +1,30 @@
+<html>
+<head>
+{{>header}}
+<title>Login Volunteer</title>
+</head>
+<body>
+{{>navbar}}
+<div class="card-wrapper">
+        <div class="card">
+            <h1 class="center">Login</h1>
+            <form name="login_form" action="/loginv" method="POST"> 
+
+
+                <label for="name">Email</label>
+                <input type="text" name="email" class="field" required>
+
+                <label for="name">Password</label>
+                <input type="text" name="password" class="field" required>
+
+                <p class="error error--hidden"></p>
+
+
+                <input type="submit" value="login" class="btn">
+            </form>
+        </div>
+
+    </div>
+
+</body>
+</html>

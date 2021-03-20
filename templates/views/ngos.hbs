@@ -1,0 +1,35 @@
+<html>
+<head>
+{{>header}}
+<link rel="stylesheet" type="text/css" href="css/ngo.css">
+<title>
+            SIGN UP FOR NGO
+</title>
+<head>
+<body bgcolor="add8e6">
+{{>navbar}}
+<div class="container">
+            <form method="POST" action="/ngos" name="ngo"  >
+                <label> Name of NGO</label><br>
+                <input type="text" name="fname" id="name" placeholder="Enter your name"><br><br>
+
+                <label> Contact Number</label><br>
+                <input type="tel" name="mnumber" id="num" placeholder="Enter your contact number"><br><br>
+
+                <label> Password </label><br>
+                <input type="password" name="pass" id="pass" placeholder="Enter your password"><br><br>
+
+                <label> Email</label><br>
+                <input type="text" name="email" id="email" placeholder="Enter your name"><br><br>
+
+                <label> Address</label><br>
+                <input type="text" name="add" id="add" placeholder="Enter your address"><br><br>
+
+                <input type="submit" value="submit" id="sub">
+                <input type="reset" value="reset" id="reset">
+               
+            </form>
+        </div>
+     <script src="js/script.js"></script>
+    </body>
+</html>    
